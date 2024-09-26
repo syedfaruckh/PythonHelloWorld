@@ -1,11 +1,11 @@
 """ 
-This is my first program. It outputs Hello World! to the screen
+This program is to ask the user for their name and greet them.
 S. Ali - September 2024
 """
 
 def main(): 
-    name: str = input("what is your name? ")
-    print("Hello", name, "! its nice to meet you. ")
+    name: str = input("What is your name? ")
+    print(f"Hello, {name}! It is nice to meet you.")
 
 
 
